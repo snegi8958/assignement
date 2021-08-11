@@ -1,0 +1,92 @@
+<!-- Day 2 Assignment
+
+1. Create a html file that contains a table with name, subject, city, marks columns and 3 rows of data .
+
+2. Create a form with name, dob, city, fields with validation 
+
+NAME = SURAJ SINGH NEGI 
+DAY 2 ASSIGNMENT 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Day 2 assignment</title>
+</head>
+<body>
+
+    <!-- here i have added some audio -->
+    <audio controls>
+    <source src="media\audio.mp3"/>    
+    </audio>
+
+    <!--making a table with name, subject,city,marks columns and 3 rows of data-->
+    <table border="1" cellspacing="0" cellpadding="10px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>city</th>
+                <th>subject</th>
+                <th>marks</th>
+            </tr>
+        </thead>
+        <!-- table data here -->
+
+        <tbody>
+            <tr>
+                <td>sruaj negi</td>
+                <td>uttarakhand</td>
+                <td>maths</td>
+                <td>95</td>
+            </tr>
+
+            <tr>
+                <td>amit joshi</td>
+                <td>uttarakhand</td>
+                <td>maths</td>
+                <td>85</td>
+            </tr>
+
+            <tr>
+                <td>anuj kothiyal</td>
+                <td>dehradun</td>
+                <td>maths</td>
+                <td>78</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+<br>
+<br>
+<br>
+        <!-- here is form with name, dob, city, fields with validation -->
+        <form>
+            <!-- simple one 
+            Enter Name
+            <input type="text"/>
+            <br> -->
+            <!-- using placeholder -->
+           NAME=<input type="text" placeholder="Enter name" required/>
+           DOB=<input type="text" placeholder="D.O.B" required/>
+           ENTER CITY=<input type="text" placeholder="city" required/>
+            <br><br>
+            UPLOAD IMAGE=<input type="file" required/>
+            GENDER=
+            <select>
+               <option>male</option>
+                <option>female</option>
+            </select>
+<br>
+<br>
+<br>
+<br>
+<button type="submit">submit the form</button>
+<button type="reset">clear</button>
+
+
+        </form>
+    
+</body>
+</html>
